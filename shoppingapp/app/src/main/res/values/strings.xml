@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shopping-List</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_rice">Rice</string>
+    <string name="item_kiwi">Kiwi</string>
+    <string name="item_sugar">Sugar</string>
+    <string name="item_chocolate">Chocolate</string>
+    <string name="item_cooking_oil">Cooking Oil</string>
+    <string name="item_tea">Tea</string>
+    <string name="item_banana">Banana</string>
+    <string name="item_apple">Apple</string>
+    <string name="item_cheese">Cheese</string>
+    <string name="item_coffee">Coffee</string>
+</resources>

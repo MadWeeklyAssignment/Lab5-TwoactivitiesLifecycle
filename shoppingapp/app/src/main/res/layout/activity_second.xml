@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/shopping_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:text="@string/item_rice"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple" />
+
+        <Button
+            android:id="@+id/item_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_kiwi" />
+
+        <Button
+            android:id="@+id/item_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_sugar" />
+
+        <Button
+            android:id="@+id/item_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_chocolate" />
+
+        <Button
+            android:id="@+id/item_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_cooking_oil" />
+
+        <Button
+            android:id="@+id/item_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:onClick="addItemToShoppingList"
+            android:text="@string/item_tea" />
+
+        <Button
+            android:id="@+id/item_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_banana" />
+
+        <Button
+            android:id="@+id/item_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_apple" />
+
+        <Button
+            android:id="@+id/item_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_cheese" />
+
+        <Button
+            android:id="@+id/item_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItemToShoppingList"
+            android:background="@color/color_purple"
+            app:backgroundTint="@color/color_purple"
+            android:text="@string/item_coffee" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
