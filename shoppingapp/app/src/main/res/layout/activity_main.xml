@@ -1,244 +1,103 @@
-xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    tools:context=".MainActivity"
-    tools:layout_editor_absoluteY="81dp">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:id="@+id/item1"
-    android:layout_width="368dp"
-    android:layout_height="wrap_content"
-    android:text="Hello World!"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-    android:layout_marginEnd="8dp"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="1"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    android:gravity="center_horizontal" />
+    <LinearLayout
+        android:id="@+id/shopping_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-<TextView
-android:id="@+id/item2"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="2"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item1"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item3"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="3"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item2"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item4"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="4"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item3"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item5"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="5"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item4"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item6"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="space6"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item5"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item7"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="7"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item6"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item8"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="8"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item7"
-android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
 
-<TextView
-android:id="@+id/item9"
-android:layout_width="368dp"
-android:layout_height="wrap_content"
-android:layout_marginEnd="8dp"
-android:layout_marginStart="8dp"
-android:layout_marginTop="8dp"
-android:textAlignment="center"
-android:visibility="invisible"
-android:text="9"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toBottomOf="@+id/item8"
-android:gravity="center_horizontal" /> android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="1"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    @@ -31,7 +31,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="2"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item1"
-    @@ -46,7 +46,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="3"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item2"
-    @@ -61,7 +61,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="4"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item3"
-    @@ -76,7 +76,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="5"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item4"
-    @@ -91,7 +91,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="space6"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item5"
-    @@ -106,7 +106,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="7"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item6"
-    @@ -121,7 +121,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="8"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item7"
-    @@ -136,7 +136,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="9"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item8"
-    @@ -151,7 +151,7 @@
-    android:layout_marginTop="8dp"
-    android:textAlignment="center"
-    android:visibility="invisible"
-    android:text="10"
-    android:text="@string/space"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/item9"
-    @@ -164,7 +164,7 @@
-    android:layout_marginBottom="8dp"
-    android:layout_marginEnd="8dp"
-    android:layout_marginStart="8dp"
-    android:text="add_item"
-    android:text="@string/add_item"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/list_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/list_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/list_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/color_gray"
+        android:onClick="addItem"
+        android:text="@string/add_item"
+        app:backgroundTint="@color/color_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopping_list"
+        app:layout_constraintVertical_bias="0.428" />
+</androidx.constraintlayout.widget.ConstraintLayout>
