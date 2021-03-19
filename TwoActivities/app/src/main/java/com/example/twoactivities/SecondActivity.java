@@ -31,4 +31,5 @@ public class SecondActivity extends AppCompatActivity {
         setResult(RESULT_OK, replyIntent);
         finish();
     }
+    private static final String LOG_TAG = SecondActivity.class.getSimpleName();
 }
